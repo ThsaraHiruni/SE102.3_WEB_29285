@@ -1,0 +1,109 @@
+Question 01:
+01)
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<ul type="disc">
+  <li>Car</li>
+  <li>Van</li>
+  <li>Bus</li>
+</ul>
+</body>
+</html>
+
+02)
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<ol type="i">
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Grapes</li>
+  <li>Banana</li>
+</ol>
+</body>
+</html>
+
+03)
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<ol>
+  <li>Cricket</li>
+  <li>Football</li>
+  <li>Rugby</li>
+  <li>Athletics</li>
+</ol>
+</body>
+</html>
+
+04)
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<dl>
+  <dt>Apple</dt>
+   <dd>A fruit</dd>
+  <dt>Cabbage</dt>
+   <dd>A Vegetable</dd>
+</dl>
+</body>
+</html>
+
+05)
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<ol type="I" start="7">
+  <li>Twelve</li>
+  <li>Thirteen</li>
+  <li>Fourteen</li>
+  <li>Fifteen</li>
+</ol>
+</body>
+</html>
+
+06)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Descending Order List</title>
+</head>
+<body>
+    <ol type="A" reversed start="3">
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>Coffee</li>
+    </ol>
+</body>
+</html>
+
+07)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Descending Order List</title>
+</head>
+<body>
+    <ol reversed start="5">
+        <li>Five</li>
+        <li>Four</li>
+        <li>Three</li>
+    </ol>
+</body>
+</html>
