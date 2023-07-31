@@ -1,0 +1,17 @@
+Question 01:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Popup Message Box</title>
+</head>
+<body>
+  <button onclick="showMessageBox()">Click Me</button>
+
+  <script>
+    function showMessageBox() {
+      const message = "Microsoft Internet Explorer\nThis is a aleat";
+      alert(message);
+    }
+  </script>
+</body>
+</html>
