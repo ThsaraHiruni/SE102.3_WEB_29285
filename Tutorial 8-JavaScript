@@ -1,0 +1,45 @@
+03)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background Color</title>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="redButton" onmouseover="changeBackgroundColor('red')" onmouseout="restoreBackgroundColor()">Red</button>
+    <button id="greenButton" onmouseover="changeBackgroundColor('green')" onmouseout="restoreBackgroundColor()">Green</button>
+    <button id="blueButton" onmouseover="changeBackgroundColor('blue')" onmouseout="restoreBackgroundColor()">Blue</button>
+
+    <script>
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+
+        function restoreBackgroundColor() {
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+</body>
+</html>
+
+04)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Circle Area</title>
+</head>
+<body>
+    <script>
+        const pi = 22 / 7;
+        const radius = prompt("Enter the radius of the circle:");
+        const area = pi * radius * radius;
+        alert(`The area of the circle with radius ${radius} is: ${area.toFixed(2)}`);
+    </script>
+</body>
+</html>
